@@ -62,24 +62,3 @@ export const fetchCurrentUser = createAsyncThunk(
     }
   },
 );
-
-// export const fetchCurrentUser = createAsyncThunk(
-//   'auth/refresh',
-//   async (_, { getState, rejectWithValue }) => {
-//     const state = getState();
-//     const persistedToken = state.auth.token;
-
-//     if (persistedToken === null) {
-//       return rejectWithValue();
-//     }
-
-//     token.set(persistedToken);
-
-//     try {
-//       const { data } = await axios.get('/security/login');
-//       return data.token;
-//     } catch (error) {
-//       return rejectWithValue(error);
-//     }
-//   },
-// );
