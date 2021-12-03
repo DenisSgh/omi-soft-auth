@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 30px 0;
+
+  width: 100%;
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+
+  // margin: 15px auto;
+  // border-radius: 10px;
+  // padding: 20px 15px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+}
